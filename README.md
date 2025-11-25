@@ -10,7 +10,9 @@ Add `phoenix_pubsub` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
-  [{:phoenix_pubsub, "~> 2.0"}]
+  [
+    {:phoenix_pubsub, "~> 2.0"}
+  ]
 end
 ```
 
