@@ -36,8 +36,8 @@ end
 Now broadcast and subscribe:
 
 ```elixir
-Phoenix.PubSub.subscribe(MyApp.PubSub, "user:123")
-Phoenix.PubSub.broadcast(MyApp.PubSub, "user:123", :hello_world)
+Phoenix.PubSub.subscribe(MyApp.PubSub, "user:456")
+Phoenix.PubSub.broadcast(MyApp.PubSub, "user:456", :hello_world)
 ```
 
 ## Testing
